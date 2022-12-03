@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+#cabecera{
+    width: auto;
+    height: 120px;
+    background-color:#A6CB78;
+}
+#cabecera img{
+    width: 180px;
+}
+#cabecera h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    padding: auto;
+    margin-top: -60px;
+}
+#cabecera a{
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: -65px;
+    margin-right: 15px;
+}
+#cabecera a:hover{
+    background-color: #081C15;
+}
+#cabecera h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.menu{
+    text-align: center;
+    list-style: none;
+    padding: 16px;
+    background: #081C15;
+    max-width: 100%;
+    margin: auto;
+}
+.menu a{
+    font-size:14px;
+    color: white;
+    text-decoration:none;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu li{
+    display: inline-block;
+    
+}
+.menu li a:hover{
+    background-color: #0a141d;
+}
+
+#Cuerpo{
+    width: 80%;
+    padding: 1%;
+ 
+}
+#cuerpo h2{
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+#principal{
+    width: 960px;
+    margin: 0px auto;   
+}
+
+#listaPerros table{
+    width: 40%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    overflow: hidden;
+    letter-spacing: 0.5;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+#listaPerros td{
+    border: 2px solid #000;
+    padding: 3px 2px;
+}
+#listaPerros tr:nth-child(even){
+    background: #A6CB78;
+}
+
+#listaPerros tr:hover{
+    background-color: bisque;
+}
+
+#listaPerros h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Mifoto{
+    max-width: 50cm;
+    padding: 5% 45%;
+}
+
+#favoritos {
+    float: left;
+    width: 835px;
+    padding: 8%;
+    background-color: #fff;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#favoritos h1{
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+#favoritos h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+#favoritos p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+#favoritos img{
+    padding: 16px;
+    height: 350px;
+}
+
+#redes{
+    float: right;
+    height: auto;
+    padding: 35px;
+    background-color: #dce6ec;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+#redes h2{
+    font: bold 20px Arial;
+    color: #000;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#redes img{
+    height: 18px;
+}
+#redes p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+#Piedepagina{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1%;
+    background-color: #081C15;
+}
+#Piedepagina > div{
+    display: flex;
+    flex: 1;
+    max-width: 960px;
+    background-color: #dce6ec;
+    border-radius: 20px;
+    
+}
+
+.pie { 
+    flex: 2; 
+    padding: 15px;
+    text-align: center;
+    color: #000;
+} 
+.pie a{
+    text-decoration: none;
+    color: #000;
+}
+.sesion form{
+    width: 30%;
+    margin: 5% auto 5%;
+    padding: 6%;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    text-align: center;
+}
+.sesion input{
+    width: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 14%px;
+    padding: 12%px;
+    border-radius: 2%px;
+    box-sizing: border-box;
+    border-style: outset;
+    border: 1px solid ;
+}
+.sesion input:hover{
+    border: 1px solid #5c929ea2;
+}
+.sesion #enviar{
+    cursor: pointer;
+    background-color:  #5c929ea2;
+    text-transform: uppercase;
+}
+#enviar:hover{
+    color:  white;
+}
+.lista_contacto{
+    margin-top: 3%;
+    max-width: 100%;
+    overflow: hidden;
+}
+.lista_contacto table{
+    width: 50%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    overflow: hidden;
+    letter-spacing: 0.5%;
+    border-collapse: collapse;
+    color: #ffffff;
+}
+.lista_contacto td{
+    border: 2px solid;
+    padding: 3px 2px;
+}
+.lista_contacto tr:hover{
+    background-color: #dc2f02;
+}
+
+/*tablas*/
+.table{
+    max-width: 100%;
+    border: 3px solid;
+    background-color: #ffffff;
+    padding: 1px;
+    overflow: auto;
+    margin: 50px;
+    border-radius: 4px;
+}
+
+table{
+    width: 100%;
+    font-size: 15px;
+    color: #000000;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+table>thead{
+    background-color: #A6CB78;
+    color: #ffffff;
+}
+
+table>thead th{
+    padding: 15px;
+}
+
+table th, td{
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+table img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    box-shadow: 0 2px 6px #000000;
+}
+ 
